@@ -455,3 +455,115 @@ section .content__middle {
   justify-content: flex-end; */
   margin-bottom: 90px;
 }
+
+/* =======================
+===== MEDIA MEDIA ========
+======================  */
+
+/* При ширине экрана в 990пх и менее - будет выполнен медиа запрос: */
+@media (max-width: 990px) {
+  .container {
+    width: 100%;
+  }
+
+  .header__menu {
+    justify-content: center;
+    margin-bottom: 100px;
+  }
+
+  .header__list {
+    margin-left: 80px;
+  }
+
+  .content__title1 {
+    font-size: 50px;
+  }
+
+  .content__title2 {
+    font-size: 30px;
+  }
+
+  .content__middle {
+    width: 100%;
+  }
+}
+
+@media (max-width: 756px) {
+  .container {
+    width: 100%;
+    margin: 0 auto;
+  }
+
+  .header__menu {
+    justify-content: center;
+    margin-bottom: 60px;
+  }
+
+  .header__list {
+    margin-left: 80px;
+  }
+
+  .content__title1 {
+    font-size: 30px;
+  }
+
+  .content__title2 {
+    font-size: 50px;
+  }
+
+  .btn__header-content a {
+    width: 120px;
+    height: 32px;
+    font-size: 9px;
+    text-transform: uppercase;
+    border: 1px solid #fff;
+    padding: 12px 26px 13px 26px;
+    border-radius: 5px;
+    background-color: #fed136;
+    margin-bottom: 93px;
+  }
+
+  .content__middle {
+    width: 100%;
+  }
+}
+
+@media (max-width: 424px) {
+  .container {
+    width: 100%;
+    margin: 0 auto;
+  }
+
+  .header__menu {
+    justify-content: center;
+    margin-bottom: 60px;
+  }
+
+  .header__list {
+    margin-left: 80px;
+  }
+
+  .content__title1 {
+    font-size: 30px;
+  }
+
+  .content__title2 {
+    font-size: 50px;
+  }
+
+  .btn__header-content a {
+    width: 120px;
+    height: 32px;
+    font-size: 9px;
+    text-transform: uppercase;
+    border: 1px solid #fff;
+    padding: 12px 26px 13px 26px;
+    border-radius: 5px;
+    background-color: #fed136;
+    margin-bottom: 93px;
+  }
+
+  .content__middle {
+    width: 100%;
+  }
+}
